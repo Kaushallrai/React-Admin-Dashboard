@@ -1,4 +1,5 @@
 import { GraphQLClient } from "@refinedev/nestjs-query";
+import { fetchWrapper } from "./fetch-wrapper";
 
 // Define the API URL constant
 export const API_URL = "https://api.crm.refine.dev";
